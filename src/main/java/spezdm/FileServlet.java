@@ -31,8 +31,8 @@ public class FileServlet extends HttpServlet {
                 log(authorName);
             } else {
                 part.write(UUID.randomUUID().toString() + part.getSubmittedFileName());
-
             }
         }
+                resp.sendRedirect("/my-app/cool-servlet");
     }
 }
