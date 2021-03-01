@@ -15,8 +15,13 @@
             <artifactId>javax.servlet-api</artifactId>
             <version>4.0.1</version>
         </dependency>
-    </dependencies>
-
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>jsp-api</artifactId>
+            <version>2.2.1-b03</version>
+            <scope>Provide</scope>
+        </dependency>
+        </dependencies>
     <build>
         <plugins>
             <plugin>
@@ -41,5 +46,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
